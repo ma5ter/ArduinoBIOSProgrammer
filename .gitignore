@@ -1,0 +1,9 @@
+*.sln
+*.suo
+*.vcxproj
+*.filters
+__vm/
+Debug/
+repo/
+spec/
+*.logicsettings
