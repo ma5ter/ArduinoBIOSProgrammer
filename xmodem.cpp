@@ -114,6 +114,11 @@ start:
 		uint8_t octet = *dst++;
 		octet_send(octet);
 		crc_update(octet);
+		if (octet_available()) {
+			if (terminal->read() == CAN) {
+				return CANCEL;
+			}
+		}
 	}
 
 	octet_send(crc >> 8);
