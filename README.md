@@ -1,7 +1,7 @@
 # Arduino BIOS Programmer
 Arduino as WINBOND W25Q*** SPI Flash (used for modern PC mainboard BIOS) reader/writer
 
-It's slow (for 16 Mb flash @ 115200 baud it takes about a hour), but simple to build, need no special software and does the works.
+It's slow (for 16 Mb flash @ 115200 baud it takes about a hour), but simple to build, need no special software and does the work.
 
 To work with the programmer use any terminal emulator with X-Modem transfer support (e.g. hyperterminal.exe) at 115200
 
